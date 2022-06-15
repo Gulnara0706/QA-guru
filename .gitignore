@@ -1,0 +1,170 @@
+# User-specific stuff
+*.pyc
+*.pyo
+*.swp
+*.class
+*.orig
+build
+skip-covered/
+tests/comparison/
+tests/adhoc/test_anything.py
+custom.png
+
+# allure
+allure-results/
+allure-report/
+
+# JetBrains
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Webdriver stuff
+geckodriver.log
+
+# allure-фреймворк
+**/allure-отчет/
+**/allure-результаты/
+**/отчеты/
+
+# Байт-скомпилированные / оптимизированные / DLL-файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C расширения
+*.так
+
+# Дистрибуция / упаковка
+.Python
+сборка/
+развитие-яйца/
+dist/
+Загрузки/
+яйца/
+.яйца/
+lib/
+либ64/
+детали/
+sdist/
+var/
+колеса/
+поделиться/python-wheels/
+*.egg-info/
+.установлен.cfg
+*.яйцо
+МАНИФЕСТ
+
+# PyInstaller
+# Обычно эти файлы записываются скриптом python из шаблона
+# перед PyInstaller строит exe, чтобы ввести в него дату / другую информацию.
+*.манифест
+*.spec
+
+# Журналы установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Модульный тест / отчеты о покрытии
+htmlcov/
+.tox/
+.nox/
+.покрытие
+.покрытие.*
+.кэш
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+**/.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv, asdf
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+.python-version
+.tool-versions
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath проанализировал файлы
+*.sage.py
+
+# Среды
+.env
+.venv*
+env/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта
+.ropeproject
+
+# mkdocs документация
+/сайт
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Перенаправление Костер
+.костер/
+
+# статический анализатор типов pytype
+.pytype/
+
+# Символы отладки Cython
+cython_debug/
